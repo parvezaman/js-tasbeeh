@@ -6,3 +6,36 @@
     --reading-rest-color: #f7cac9;
     --done-text-color: #80ced6;
 }
+*{
+    background-color: var(--background-color);
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+
+
+.up-button{
+    color: var(--up-button-color);
+    background-color: var(--up-button-color) !important;
+    
+}
+.button-sizing{
+    padding: 5rem !important;
+    font-size: 15px !important;
+    width: 100%;
+    height: 35%;
+}
+.down-button{
+    color: var(--down-button);
+    background-color: var(--down-button) !important;
+
+}
+.button-text-up{
+    font-size: 5rem;
+    background-color: var(--up-button-color);
+
+}
+.button-text-down{
+    font-size: 5rem;
+    background-color: var(--down-button);
+
+}
