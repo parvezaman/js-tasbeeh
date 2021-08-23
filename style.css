@@ -8,8 +8,35 @@
 }
 *{
     background-color: var(--background-color);
-    overflow-x: hidden;
-    overflow-y: visible;
+    /* overflow-x: hidden; */
+    /* overflow-y: hidden; */
+}
+
+#hadith-parent{
+    width: 100%;
+    height: 100px;
+    border: 3px solid red;
+    /* overflow: hidden; */
+}
+
+#hadith-child{
+    width: 100%;
+    height: 100%;
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
+    padding : 11px;
+    /* box-sizing: content-box; */
+} 
+
+
+.hadith-child{
+    border: 3px solid;
+}
+
+.all-container{
+    /* position: relative; */
+    margin-top: 25px;
+    padding-top: 25px;
 }
 
 
@@ -38,4 +65,30 @@
     font-size: 5rem;
     background-color: var(--down-button);
 
+}
+
+#display-count{
+    display: block;
+    font-size: 2rem;
+    text-decoration: underline;
+    background-color: var(--up-button-color);
+    color:black;
+}
+
+/* hadith content style */
+.hadith-title{
+    margin-bottom: 21px;
+    text-align: center;
+}
+
+.hadith-contents{
+    text-align: justify;
+    margin: 5px;
+    padding: 11px;
+    /* border: 3px solid; */
+    height: 100vh;
+    overflow: scroll;
+}
+.reference{
+    color: salmon;
 }

@@ -13,18 +13,32 @@
 </head>
 <body>
     <main>
-        <div class="row ">
+        <div class="row g-3 all-container">
             <!--far left segment -->
-            <div class="col-lg-4">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ut animi natus? Omnis fugiat laboriosam in vel dignissimos. Mollitia quod aspernatur exercitationem commodi eos suscipit quos? Excepturi rerum eum quidem?
+            <div class="col-lg-4 hadith-parent" >
+                <div id="hadith-child">
+                    <h1 class="hadith-title">তওবা ও ইস্তেগফার</h1>
+
+                    <div class="hadith-contents">
+                        <div class="hadith-content">
+                             <p>মূসা ইবন ইসমাঈল (রহঃ) ..... ইবন আব্বাস (রাঃ) হতে বর্ণিত। তিনি বলেন, দু’আর আদব (শিষ্টতা) হল, উভয় কাঁধ বা তার সম-পরিমাণ পর্যন্ত উত্তোলন করা এবং ইস্তেগফারের (গোনাহ মাফের জন্য দু’আ করার) আদব হল, দুআর সময় শাহাদাত আঙ্গুল দ্বারা ইশারা করা। ইবতিহালের (অর্থাৎ দু’আর সময় রোনাজারি, কান্নাকাটি করা) আদব হল-দুআর সময় উভয় হস্তকে এত উপরে উঠানো যাতে হাতের বগলের সাদা অংশ দৃষ্টিগোচর হয়।<span class="reference">সূনান আবু দাউদ (ইসলামিক ফাউন্ডেশন)(১৪৮৯)</span> </p>
+                        </div>
+                        <div class="hadith-content">
+                             <p>আবূ হুরায়রা রাদিয়াল্লাহু আনহু থেকে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন: “নিশ্চয় আল্লাহ তা‘আলা নেক বান্দার মর্তবা জান্নাতে বুলন্দ করবেন, সে বলবে: হে আমার রব এটা আমার জন্য কিভাবে হল? তিনি বলবেন: তোমার জন্য তোমার সন্তানের ইস্তেগফারের কারণে”। [আহমদ] এ হাদিসের সনদ হাসান। <span class="reference">সহীহ হাদিসে কুদসি (১২১)</span> </p>
+                        </div>
+                        <div class="hadith-content">
+                             <p>আবূ হুরায়রা রাদিয়াল্লাহু আনহু থেকে বর্ণিত, রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম বলেছেন: “নিশ্চয় আল্লাহ তা‘আলা নেক বান্দার মর্তবা জান্নাতে বুলন্দ করবেন, সে বলবে: হে আমার রব এটা আমার জন্য কিভাবে হল? তিনি বলবেন: তোমার জন্য তোমার সন্তানের ইস্তেগফারের কারণে”। [আহমদ] এ হাদিসের সনদ হাসান। <span class="reference">সহীহ হাদিসে কুদসি (১২১)</span> </p>
+                        </div>
+                    </div>
+                </div>
             </div>
 
 
             <!-- middle and main segment -->
             <div class="col-lg-4">
                 <div class="d-flex justify-content-center align-items-center flex flex-column">
-                    <button onclick="countUp()" type="button" class="btn up-button button-sizing"><span class="button-text-up">+</span></button>
-                    <button type="button" class="btn down-button button-sizing"><span class="button-text-down">-</span></button>
+                    <button id="plus-button" type="button" class="btn up-button button-sizing"><span class="button-text-up">+</span> <span id="display-count">0</span></button>
+                    <button id="minus-button" type="button" class="btn down-button button-sizing"><span class="button-text-down">-</span></button>
                 </div>
 
             </div>
