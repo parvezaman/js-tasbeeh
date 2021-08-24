@@ -10,8 +10,8 @@
 }
 *{
     background-color: var(--background-color);
-    /* overflow-x: hidden; */
-    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    overflow-y: visible;
 }
 
 .all-container{
@@ -26,6 +26,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: 900;
+    overflow: hidden;
 }
 
 .section-sub-heading{
@@ -33,6 +34,7 @@
     margin: 15px 0px;
     font-size: 1rem;
     font-weight: 700;
+    overflow: hidden;
 }
 .body-text{
     font-size: .9rem;
@@ -49,8 +51,8 @@
     background: -webkit-linear-gradient(top,  rgb(236, 17, 69) 0%,rgb(175, 8, 47) 51%,rgb(202, 3, 50) 100%); /*Chrome10-25,Safari5.1-6*/ 
 }
 .my-input{
-    padding: 5px 25px;
-    border-radius: 11px;
+    padding: .5rem .2rem;
+    border-radius: .7rem;
     border: 1px solid crimson;
 }
 
@@ -76,54 +78,7 @@
     padding : 11px;
 } 
 
-
-
-
-
-
-
-
-
-
-/* middle segment css */    /* middle segment css */    /* middle segment css */
-
-.up-button{
-    color: var(--up-button-color);
-    background-color: var(--up-button-color) !important;
-    
-}
-.button-sizing{
-    padding: 5rem !important;
-    font-size: 15px !important;
-    width: 100%;
-    height: 35%;
-}
-.down-button{
-    color: var(--down-button);
-    background-color: var(--down-button) !important;
-
-}
-.button-text-up{
-    font-size: 5rem;
-    background-color: var(--up-button-color);
-
-}
-.button-text-down{
-    font-size: 5rem;
-    background-color: var(--down-button);
-
-}
-
-#display-count{
-    display: block;
-    font-size: 2rem;
-    text-decoration: underline;
-    background-color: var(--up-button-color);
-    color:black;
-}
-
 /* hadith content style */
-
 
 .hadith-contents{
     text-align: justify;
@@ -131,7 +86,8 @@
     padding: 11px;
     /* border: 3px solid; */
     height: 100vh;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 .reference{
     color: crimson;
@@ -147,8 +103,66 @@
 
 
 
+/* middle segment css */    /* middle segment css */    /* middle segment css */
+#tasbeeh{
+    width: 50%;
+    height: 120vh;
+    margin: 0;
+    /* position: ; */
+}
+.up-button{
+    color: var(--up-button-color);
+    background-color: var(--up-button-color) !important;
+    overflow: hidden;
+    
+}
+.button-sizing{
+    padding: 5rem !important;
+    font-size: 15px !important;
+    width: 100%;
+    height: 35%;
+}
+.down-button{
+    color: var(--down-button);
+    background-color: var(--down-button) !important;
+    overflow: hidden;
+
+}
+.button-text-up{
+    font-size: 5rem;
+    background-color: var(--up-button-color);
+
+}
+.button-text-down{
+    font-size: 5rem;
+    background-color: var(--down-button);
+
+}
+
+#display-count{
+    display: block;
+    font-size: 3rem;
+    text-decoration: underline;
+    background-color: var(--up-button-color);
+    color: crimson;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 /* right side segment */    /* right side segment */    /* right side segment */    
+.right-segment{
+    width: 50%;
+}
+
 .count-left{
     margin: 10px;
 }
@@ -156,10 +170,10 @@
 #show-left{
     font-size: 5rem;
     color: cornsilk;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     /* border: 1px solid red; */
-    border-radius: 50%;
+    /* border-radius: 50%; */
     display: table;
     margin: 0 auto;
     display: flex;
@@ -180,3 +194,11 @@
     display: flex;
     justify-content: center;
 }
+
+
+
+
+
+
+
+

@@ -20,7 +20,7 @@ plusButton.addEventListener('click', () =>{
     counter += 1;
     displayCount.innerText = counter;
     console.log(iWantedToRead);
-    countLeft.innerText = iWantedToRead-counter; 
+    countLeft.innerText = `${iWantedToRead}/${iWantedToRead-counter}`; 
     if(counter == iWantedToRead){
         countLeft.innerText = `done`;
         plusButton.setAttribute('disabled', true);
@@ -31,7 +31,7 @@ minusButton.addEventListener('click', () =>{
     if(counter>= 1){
         counter -= 1;
         displayCount.innerText = counter;
-        countLeft.innerText = iWantedToRead-counter;
+        countLeft.innerText = `${iWantedToRead}/${iWantedToRead-counter}`;
         if(counter < iWantedToRead){
             plusButton.removeAttribute('disabled', true);
         }

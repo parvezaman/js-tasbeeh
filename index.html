@@ -15,7 +15,7 @@
     <main>
         <div class="row g-3 all-container">
             <!--far left segment -->
-            <div class="col-lg-4 hadith-parent" >
+            <div class="col-md-4 hadith-parent" >
                 <div id="hadith-child">
                     <h1 class="section-title">তওবা ও ইস্তেগফার</h1>
 
@@ -37,36 +37,38 @@
 
 
             <!-- middle and main segment -->
-            <div class="col-lg-4">
-                <div class="d-flex justify-content-center align-items-center flex flex-column">
+            <div class="col-md-8 d-flex">
+                <div id="tasbeeh" class="d-flex justify-content-center align-items-center flex-column">
+                     <h1 class="section-title">Tasbeeh counter</h1>
+
                     <button id="plus-button" type="button" class="btn up-button button-sizing"><span class="button-text-up">+</span> <span id="display-count">0</span></button>
                     <button id="minus-button" type="button" class="btn down-button button-sizing"><span class="button-text-down">-</span></button>
                 </div>
 
-            </div>
 
-            <!-- far right segment -->
-            <div class="col-lg-4">
-                <div class="how-far">
-                    <div class="count-left">
-                        <h1 class="section-title">রাসূল সাঃ এর আমল থেকে আমি কতদূরে? </h1>
-                        <h4 class="section-sub-heading"> আপনি কতবার পড়তে চান? </h4>
-                        <div class="i-want-to-read">
-                            <input id="wanna-read-input" class="my-input" type="text" placeholder="আমি পড়তে চায়">
-                            <button id="wanna-read-button" class="my-button btn">বার</button>
+                <!-- far right segment -->
+                <div class="right-segment">
+                    <div class="how-far">
+                        <div class="count-left">
+                            <h1 class="section-title">রাসূল সাঃ এর আমল থেকে আমি কতদূরে? </h1>
+                            <h4 class="section-sub-heading"> আপনি কতবার পড়তে চান? </h4>
+                            <div class="i-want-to-read d-sm-flex flex-column">
+                                <input id="wanna-read-input" class="my-input" type="text" placeholder="আমি পড়তে চায়">
+                                <button id="wanna-read-button" class="my-button btn">বার</button>
+                            </div>
+                            <h4 class="section-sub-heading">মাশাআল্লাহ, আর বাকি মাত্র:</h4>
+                            <div id="show-left">
+                                <!-- <p><span id="count-left"></span></p> -->
+                            </div>
                         </div>
-                        <h4 class="section-sub-heading">মাশাআল্লাহ, আর বাকি মাত্র:</h4>
-                        <div id="show-left">
-                            <!-- <p><span id="count-left"></span></p> -->
+    
+                        <div class="amol-e-rasul-sm">
+                            <h1 class="section-title">এই ব্যাপারে রাসূল সাঃ এর আমল </h1>
                         </div>
-                    </div>
-
-                    <div class="amol-e-rasul-sm">
-                        <h1 class="section-title">এই ব্যাপারে রাসূল সাঃ এর আমল </h1>
-                    </div>
-
-                    <div class="how-far-am-i">
-
+    
+                        <div class="how-far-am-i">
+    
+                        </div>
                     </div>
                 </div>
             </div>
